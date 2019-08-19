@@ -1,0 +1,219 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+#loading {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid #ccc;
+  border-top-color: #111111;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999999999;
+  animation: putar 2s ease infinite;
+}
+@keyframes putar {
+  from {
+    transform: rotate(0deg);
+  }to {
+    transform: rotate(360deg);
+  }
+}
+.container_head {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+.headinghi{
+  padding-left: 0px;
+  font-size: 36px;
+  margin-bottom: 0;
+  text-shadow: 5px 5px 10px #999;
+  /* animasi Typewrite */
+	/* width: 1000px; */
+	/* white-space:nowrap; */
+	overflow:hidden;
+	-webkit-animation: ketik 5s steps(50, end);
+	animation: ketik 5s steps(50, end)
+}
+@keyframes ketik{
+  from { width: 0; }
+}
+
+@-webkit-keyframes ketik{
+  from { width: 0; }
+}
+.pharagraph_heading1 {
+  font-size: 20px;
+  text-shadow: 5px 5px 10px #000;
+}
+.hhh {
+  padding-right: 0px;
+  display: block;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999999;
+}
+.navbar button {
+  display: block;
+  color: #000000;
+  background: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+/* The Modal (background) */
+.sideBar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+  
+/* Modal Content/Box */
+.sideBarContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  text-align: center;
+  overflow-y: hidden;
+  height: 100%;
+  transition: 1s;
+}
+  
+/* The Close Button */
+.close {
+  color: #818181;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+}
+  
+.close:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menuSideBar {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.menuSideBar:hover {
+  color: #fff;
+}
+
+
+.container_body {
+  padding: 0;
+  text-align: center;
+}
+.gambar {
+  width: 50%;
+  cursor: pointer;
+  transition: 1s;
+}
+.gambar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px #000;
+}
+.main {
+  text-align: center;
+  margin-top: 50px;
+}
+#parallax {
+  background-image: url(./images/slide1.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 4px #000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#parallax1 {
+  background-image: url(./images/slide3.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 4px #000;
+  margin-top: 100px;
+}
+#paragraf {
+  margin: 100px;
+  font-size: 20px;
+}
+#paragraf a {
+  text-decoration: none;
+  color: blue;
+}
+
+#parallax2 {
+  background-image: url(./images/slide2.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 4px #000;
+  margin-top: 100px;
+}
+
+.c01 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

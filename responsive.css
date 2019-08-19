@@ -1,0 +1,56 @@
+/* Handphone (320px – 767px)
+*  Tablet (768px -991px)
+*  Monitor (992px – 1199px)
+*  Monitor HD (1200px – ~) 
+*/
+
+
+/* default wide mobile layout */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    /* body {
+       display: flex;
+    } */
+    .headinghi {
+        font-size: 24px;
+    }
+    .pharagraph_heading {
+        font-size: 20px;
+    }
+    #parallax {
+        height: 500px;
+    }
+    #parallax1 {
+        height: 500px;
+    }
+    #parallax2 {
+        height: 500px;
+    }
+    .gambar {
+        width: 100%;
+    }
+    .gambar:hover {
+        display: none;
+    }
+    #paragraf {
+        font-size: 16px;
+    }
+    .c01 {
+        flex-direction: column;
+    }
+ }
+  
+ /* default tablet layout */
+ /* @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+       ...
+    }
+    ...
+ } */
+  
+ /* default monitor layout */
+ /* @media only screen and (min-width: 992px) {
+    body {
+       ...
+    }
+    ...
+ } */
